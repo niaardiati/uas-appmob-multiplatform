@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp_api/model/article_model.dart';
+import 'package:uas/model/article_model.dart';
 
 class ArticlePage extends StatelessWidget {
   final Article article;
@@ -29,22 +29,7 @@ class ArticlePage extends StatelessWidget {
             ),
           ),
 
-           SizedBox(
-            height: 8.0,
-            ),
-          Container(
-            padding: EdgeInsets.all(6.0),
-            decoration: BoxDecoration(
-              color: Colors.red,
-              borderRadius: BorderRadius.circular(30.0),
-            ),
-            child: Text(
-              article.source.name, 
-              style: TextStyle(
-                color: Colors.white,
-                ),
-              ),
-          ),
+           
           SizedBox(height: 8.0,),
           Text(
             article.description,

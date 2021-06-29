@@ -40,22 +40,7 @@ Widget customListTile(Article article, BuildContext context) {
             ),
           ),
 
-          SizedBox(
-            height: 8.0,
-            ),
-          Container(
-            padding: EdgeInsets.all(6.0),
-            decoration: BoxDecoration(
-              color: Colors.red,
-              borderRadius: BorderRadius.circular(30.0),
-            ),
-            child: Text(
-              article.source.name, 
-              style: TextStyle(
-                color: Colors.white,
-                ),
-              ),
-          ),
+          
           SizedBox(height: 8.0,),
           Text(
             article.title,
