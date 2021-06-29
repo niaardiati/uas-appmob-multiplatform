@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar( centerTitle: true,
         title: Text("Nia Ardiati",
             textAlign: TextAlign.center,
             style: TextStyle(
